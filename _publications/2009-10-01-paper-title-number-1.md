@@ -2,11 +2,11 @@
 title: "Informe Hacia la Sociedad de la Información y el Conocimiento Prosic 2023"
 collection: publications
 permalink: /publication/2009-10-01-paper-title-number-1
-excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: 2009-10-01
+excerpt: 'Esta es la más reciente entrega de la colección de informes anuales presentados por Prosic.'
+date: 2023-12-06
 venue: 'Informe 1'
 paperurl: 'https://github.com/darielamador/darielamador.github.io/blob/master/files/Informe%202023%20completo_2da%20Rev%20VCO.pdf'
-citation: 'Amador Zamora et. al (2023).&quot; <i>Journal 1</i>. 1(1).'
+citation: 'Amador Zamora et. al (2023).&quot; <i>Informe Hacia la Sociedad de la Información y el Conocimiento Prosic 2023</i>. 1(1).'
 ---
 Informe 2023 Hacia la Sociedad de la Información y el Conocimiento Prosic. Tuve la oportunidad de ser coautor en el desarrollo del capítulo sobre el acceso y uso de las tecnologías de información y comunicación (TIC) en los hogares costarricenses. El principal insumo para la elaboración de este informe es la Encuesta Nacional de Hogares (ENAHO) del Instituto Nacional de Estadísticas y Censos (INEC).
 
