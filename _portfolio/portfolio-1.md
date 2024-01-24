@@ -1,12 +1,9 @@
 ---
-title: "Libro Teoría Macroeconómica I"
-collection: publications
-permalink: /publication/2009-10-01-paper-title-number-1
-excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: 2009-10-01
-venue: 'Libro 1'
-paperurl: 'https://github.com/darielamador/darielamador.github.io/blob/master/files/libro_macro_I%20(1).pdf'
+title: "Portfolio item number 1"
+excerpt: "Apuntes del curso Teoría Macroeconómica I de la Escuela de Economía de la Universidad de Costa Rica II-2020.  <br/><img src='/images/portada macro1.png'>"
+collection: portfolio
 ---
+
 Apuntes del curso Teoría Macroeconómica I de la Escuela de Economía de la Universidad de Costa Rica II-2020. 
 
 Estos son mis apuntes de cuando yo llevé el curso. La enorme mayoría del material fuente o insumo para hacer estos apuntes, son los diversos apuntes, ejercicios y clases impartidos por las profesoras Isabel Araya, Yelitza Castillo y el profesor Bryan Segura. Además se encuentran ejercicios y ejemplos con sus respectivas soluciones e interpretaciones.
