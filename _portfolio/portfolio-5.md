@@ -1,6 +1,6 @@
 ---
 title: "Libro Crecimiento y Ciclos"
-excerpt: "Apuntes del curso Crecimiento y Ciclos de la Escuela de Economía de la Universidad de Costa Rica I-2023.  <br/><img src='/images/portada microeconometría.png'>"
+excerpt: "Apuntes del curso Crecimiento y Ciclos de la Escuela de Economía de la Universidad de Costa Rica I-2023.  <br/><img src='/images/portada ciclos.png'>"
 collection: portfolio
 ---
 
