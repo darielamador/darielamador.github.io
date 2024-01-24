@@ -1,5 +1,5 @@
 ---
-title: "Portfolio item number 1"
+title: "Libro Teoría Macroeconómica I"
 excerpt: "Apuntes del curso Teoría Macroeconómica I de la Escuela de Economía de la Universidad de Costa Rica II-2020.  <br/><img src='/images/portada macro1.png'>"
 collection: portfolio
 ---
