@@ -1,7 +1,19 @@
 ---
-title: "Portfolio item number 1"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
-collection: portfolio
+title: "Libro Teoría Macroeconómica I"
+collection: publications
+permalink: /publication/2009-10-01-paper-title-number-1
+excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
+date: 2009-10-01
+venue: 'Libro 1'
+paperurl: 'https://github.com/darielamador/darielamador.github.io/blob/master/files/libro_macro_I%20(1).pdf'
 ---
+Apuntes del curso Teoría Macroeconómica I de la Escuela de Economía de la Universidad de Costa Rica II-2020. 
 
-This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 
+Estos son mis apuntes de cuando yo llevé el curso. La enorme mayoría del material fuente o insumo para hacer estos apuntes, son los diversos apuntes, ejercicios y clases impartidos por las profesoras Isabel Araya, Yelitza Castillo y el profesor Bryan Segura. Además se encuentran ejercicios y ejemplos con sus respectivas soluciones e interpretaciones.
+
+Para más información sobre la elaboración del capítulo o dudas sobre el código empleado para el mismo no dude en escribirme a dariel.amador@ucr.ac.cr y con mucho gusto le ayudaré. Cualquier retroalimentación sobre el libro es bievenido así como cualquier aporte para hacer de los apuntes una versión más completa e íntegra.
+
+
+Saludos
+
+[Download paper here](https://github.com/darielamador/darielamador.github.io/blob/master/files/libro_macro_I%20(1).pdf)
