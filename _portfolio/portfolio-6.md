@@ -13,4 +13,4 @@ Para más información sobre la elaboración del libro o dudas sobre el código 
 
 Saludos
 
-[Descargar libro aquí](https://github.com/darielamador/darielamador.github.io/blob/master/files/libro_macro_I_13-3-24.pdf)
+[Descargar libro aquí](https://github.com/darielamador/darielamador.github.io/blob/master/files/libro_macro_I_20-3-24.pdf)
