@@ -15,7 +15,7 @@
 window.SITIO = {
   perfil: {
     nombre: "Dariel Amador",
-    lema: "Monetary macroeconomics for small open economies", // título grande de Home
+    lema: "Economist passionate about Monetary macroeconomics for small open economies", // título grande de Home
     titular: "Economist · MSc Economics, University of Warwick",
     ubicacion: "Coventry, United Kingdom",
     email: "darielamador04@gmail.com",
