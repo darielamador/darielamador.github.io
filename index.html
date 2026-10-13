@@ -197,14 +197,15 @@ btn.addEventListener("click",()=>{
   try{navigator.clipboard.writeText(P.email).then(ok,fail)}catch(e){fail()}
 });
 
-const tipoLabel={pdf:"PDF",md:"Note",enlace:"Link",seccion:"Section",wp:"Working paper"};
+const tipoLabel={pdf:"PDF",md:"Note",enlace:"Link",seccion:"Section",wp:"Working paper",html:"Replication",codigo:"Code"};
+const conArchivo=["pdf","html","codigo"];
 function href(it){
   if(it.tipo==="seccion")return "#s-"+it.id;
   if(it.tipo==="md")return "#md-"+it.archivo.split("/").pop().replace(/\.md$/i,"").replace(/[^A-Za-z0-9._~-]/g,"-");
-  return it.tipo==="pdf"?it.archivo:it.url;
+  return conArchivo.includes(it.tipo)?it.archivo:it.url;
 }
 const tieneEnlace=it=>it.tipo==="seccion"||!!(it.archivo||it.url);
-const externo=it=>it.tipo==="pdf"||it.tipo==="enlace";
+const externo=it=>conArchivo.includes(it.tipo)||it.tipo==="enlace";
 function lista(items){
   if(!items||!items.length)return '<p class="vacio">Nothing here yet.</p>';
   return '<ul class="lista">'+items.map(it=>`
@@ -212,7 +213,7 @@ function lista(items){
       <span class="tipo">${tipoLabel[it.tipo]||it.tipo}</span>
       <div><h3>${tieneEnlace(it)?`<a href="${esc(href(it))}"${externo(it)?' target="_blank" rel="noopener"':""}>${esc(it.titulo)}</a>`:esc(it.titulo)}</h3>
       ${it.descripcion?`<p>${esc(it.descripcion)}</p>`:""}</div>
-      <span class="fecha">${esc(it.fecha||(it.items?it.items.length+" items":""))}</span>
+      <span class="fecha">${esc(it.fecha||(it.items?it.items.length+(it.items.length===1?" item":" items"):""))}</span>
     </li>`).join("")+"</ul>";
 }
 function listaSimple(items){
@@ -241,7 +242,7 @@ const V={
   research:()=>`
     <p class="eyebrow">Research</p><h2>Working papers and projects</h2>${lista(S.research)}`,
   portafolio:()=>`
-    <p class="eyebrow">Portfolio</p><h2>Proofs, derivations and code</h2>${lista(S.portafolio)}`,
+    <p class="eyebrow">Portfolio</p><h2>Proofs, derivations, replications and code</h2>${lista(S.portafolio)}`,
   teaching:()=>`
     <p class="eyebrow">Teaching</p><h2>Courses</h2>
     <p class="eyebrow grupo">Instructor</p>

@@ -1,12 +1,15 @@
 // =============================================================
 //  CONTENIDO DEL SITIO — este es el único archivo que necesitás editar.
-//  1. Subí tus PDFs a  contenido/pdf/   y tus Markdown a  contenido/md/
+//  1. Subí tus PDFs a  contenido/pdf/ , tus Markdown a  contenido/md/
+//     y tus HTML renderizados (Quarto) a  contenido/html/
 //  2. Agregá una entrada en la lista correspondiente de abajo.
 //
 //  Tipos de entrada:
-//    { tipo: "pdf",     titulo, descripcion, archivo: "contenido/pdf/x.pdf", fecha }
-//    { tipo: "md",      titulo, descripcion, archivo: "contenido/md/x.md",   fecha }
-//    { tipo: "enlace",  titulo, descripcion, url: "https://...",            fecha }
+//    { tipo: "pdf",     titulo, descripcion, archivo: "contenido/pdf/x.pdf",   fecha }
+//    { tipo: "md",      titulo, descripcion, archivo: "contenido/md/x.md",     fecha }
+//    { tipo: "html",    titulo, descripcion, archivo: "contenido/html/x.html", fecha }
+//    { tipo: "codigo",  titulo, descripcion, archivo: "contenido/code/x.qmd",  fecha }
+//    { tipo: "enlace",  titulo, descripcion, url: "https://...",              fecha }
 //    { tipo: "seccion", id: "sin-espacios", titulo, descripcion, items: [ ...entradas... ] }
 //  Una "seccion" abre su propia página y puede contener otras secciones.
 //  Los "id" de las secciones deben ser únicos en todo el sitio.
@@ -15,7 +18,7 @@
 window.SITIO = {
   perfil: {
     nombre: "Dariel Amador",
-    lema: "Economist passionate about Monetary macroeconomics for small open economies", // título grande de Home
+    lema: "Monetary macroeconomics for small open economies", // título grande de Home
     titular: "Economist · MSc Economics, University of Warwick",
     ubicacion: "Coventry, United Kingdom",
     email: "darielamador04@gmail.com",
@@ -57,8 +60,8 @@ window.SITIO = {
     {
       tipo: "seccion",
       id: "proofs",
-      titulo: "Proofs & derivations",
-      descripcion: "Worked proofs and step-by-step model derivations.",
+      titulo: "Proofs, Derivations & Replications",
+      descripcion: "Worked proofs, step-by-step model derivations and replications of course material.",
       items: [
         {
           tipo: "seccion",
@@ -99,6 +102,36 @@ window.SITIO = {
               descripcion: "Households, the dynamic IS curve, Calvo pricing and the New Keynesian Phillips Curve.",
               archivo: "contenido/md/modelo-neokeynesiano.md",
               fecha: "2026",
+            },
+          ],
+        },
+        {
+          tipo: "seccion",
+          id: "macro-replications",
+          titulo: "Macroeconomics Replications",
+          descripcion: "Empirical replications of the EC9D5 Macroeconomics B lectures (University of Warwick) with OECD data.",
+          items: [
+            {
+              tipo: "seccion",
+              id: "macro-b-lecture-01",
+              titulo: "Lecture 01 · Facts and Questions about Business Cycles",
+              descripcion: "Recession dating, GDP composition, growth-rate, linear and HP detrending, and business-cycle stylised facts for the 38 OECD members.",
+              items: [
+                {
+                  tipo: "html",
+                  titulo: "Replication notebook",
+                  descripcion: "Rendered Quarto document with code, tables and charts in R.",
+                  archivo: "contenido/html/lecture01-business-cycles.html",
+                  fecha: "Oct 2026",
+                },
+                {
+                  tipo: "codigo",
+                  titulo: "Source code (.qmd)",
+                  descripcion: "Quarto source file to reproduce every result.",
+                  archivo: "contenido/code/lecture01-business-cycles.qmd",
+                  fecha: "Oct 2026",
+                },
+              ],
             },
           ],
         },
